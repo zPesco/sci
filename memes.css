@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(236, 236, 236);
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 2%;
+    background-color: #E5050F;
+}
+
+.homeicon img{
+    width: 130px;
+    padding-top: 5px;
+}
+.homeicon img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+header{
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    width: auto;
+}
+
+.headermenulisttop {
+    text-align: right;
+    width: 85%;
+}
+
+.headermenulisttop a{
+    padding: 10px;
+    width: 80%;
+    color: white;
+    text-decoration: none;
+    font: 700 16px sans-serif;
+    padding: 3%;
+}
+
+.listtop {
+    padding-bottom: 32px;
+    padding-top: 20px;
+}
+
+.listbottom a{
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   text-shadow: 1px 1px 2px black;
+}
+.contentbg{
+    width: 100%;
+    height: 2400px;
+}
+.memes1{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.memes1 img{
+    width: 500px;
+    margin: 1%;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+}
+.videosbg{
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videos iframe{
+    width: 320px;
+    height: 320px;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 10px;
+}
+
+.space{
+    width: 100%;
+    height: 50px;
+}
+.spacehr{
+    height: 10px;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border: 0%;
+    border: none;
+}
+.bgfooter{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to bottom, rgb(236, 236, 236) 5% ,rgb(236, 236, 236) 5%, rgb(70, 70, 70) 60%);
+    flex-wrap: wrap;
+}
+.footerimg{
+    margin-bottom: 5%;
+    width: 100%;
+    height: 350px;
+}
+.footerimg img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
